@@ -1,0 +1,8 @@
+version: "3.2"
+
+services:
+  chainwalkers_parser:
+    build: .
+    volumes:
+      - .:/chainwalkers_parser
+    command: /bin/shell
